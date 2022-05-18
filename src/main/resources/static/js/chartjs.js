@@ -1,7 +1,7 @@
 $(setInterval(function(){
     GetData();
 }, 15000));
-$(ChartRefresh())
+$(GetData())
 function GetData() {
     console.log("开始刷新");
     $.ajax({
